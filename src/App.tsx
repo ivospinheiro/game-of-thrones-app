@@ -1,4 +1,6 @@
 import { FC } from 'react';
+import { GAME_OF_THRONES_CHARACTERS } from './data/Characters';
+import { House } from './types/types';
 
 const App: FC = () => {
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import {render, screen} from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import App from './App';
+import { GAME_OF_THRONES_CHARACTERS } from './data/Characters';
 
 
 it('renders expected characters with their houses', () => {
