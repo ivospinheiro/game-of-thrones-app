@@ -10,7 +10,7 @@ function App() {
                 <select
                     className="ml-2 p-2 border border-gray-300 rounded"
                 >
-                    <option value={undefined}>All</option>
+                    <option value="All">All</option>
                     <option value="Dragonstone">Dragonstone</option>
                     <option value="Casterly Rock">Casterly Rock</option>
                     <option value="Winterfell">Winterfell</option>
